@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #93c5fd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#messageBox {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#detailsBox {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #111827;
+    line-height: 1.6;
+}
